@@ -1,4 +1,11 @@
 # Taco-Cloud
+Стек:
+
+![Java](https://img.shields.io/badge/Java-1E7775?style=for-the-badge&logo=java&logoColor=E9D54D) 
+![Spring](https://img.shields.io/badge/Spring-1E7775?style=for-the-badge&logo=spring&logoColor=E9D54D) 
+![SpringBoot](https://img.shields.io/badge/Spring-Boot-1E7775?style=for-the-badge&logo=springboot&logoColor=E9D54D) 
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-1E7775?style=for-the-badge&logo=thymeleaf&logoColor=E9D54D) 
+
 Это приложение сделано по мотивам книги "Spring в действии" Крейг Уоллс.
 
 Это онлайн-приложение Taco Cloud для заказа самой замечательной еды, созданной человеком, – тако. 

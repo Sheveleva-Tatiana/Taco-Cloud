@@ -1,6 +1,5 @@
 package tacos.web;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,10 +9,10 @@ import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 import lombok.extern.slf4j.Slf4j;
-import tacos.Ingredient;
-import tacos.Ingredient.Type;
-import tacos.Taco;
-import tacos.TacoOrder;
+import tacos.models.Ingredient;
+import tacos.models.Ingredient.Type;
+import tacos.models.Taco;
+import tacos.models.TacoOrder;
 import tacos.data.IngredientRepository;
 
 import javax.validation.Valid;

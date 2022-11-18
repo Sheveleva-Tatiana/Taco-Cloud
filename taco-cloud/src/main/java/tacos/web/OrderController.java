@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.support.SessionStatus;
-import tacos.TacoOrder;
+import tacos.models.TacoOrder;
 import tacos.data.OrderRepository;
 
 import javax.validation.Valid;

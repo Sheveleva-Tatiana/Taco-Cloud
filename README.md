@@ -5,6 +5,7 @@
 ![Spring](https://img.shields.io/badge/Spring-1E7775?style=for-the-badge&logo=spring&logoColor=E9D54D) 
 ![SpringBoot](https://img.shields.io/badge/Spring-Boot-1E7775?style=for-the-badge&logo=springboot&logoColor=E9D54D) 
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-1E7775?style=for-the-badge&logo=thymeleaf&logoColor=E9D54D) 
+![Validation-AP](https://img.shields.io/badge/JSR303-1E7775?style=for-the-badge&logo=JSR303&logoColor=E9D54D) 
 
 Это приложение сделано по мотивам книги "Spring в действии" Крейг Уоллс.
 

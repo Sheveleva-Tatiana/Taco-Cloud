@@ -20,13 +20,13 @@ create table if not exists Taco (
     );
 
 create table if not exists Ingredient (
-    id identity,
+    id varchar(4) UNIQUE not null,
     name varchar(25) not null,
     type varchar(10) not null
     );
 
 create table if not exists Ingredient_Ref (
-    ingredient identity references Ingredient(id),
+    ingredient varchar(4) UNIQUE references Ingredient(id),
     taco bigint not null,
     taco_key bigint not null
     );

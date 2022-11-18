@@ -1,15 +1,11 @@
 package tacos.web;
 
-import com.fasterxml.jackson.databind.JavaType;
-import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.fasterxml.jackson.databind.util.Converter;
+import java.util.HashMap;
+import java.util.Map;
+import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 import tacos.Ingredient;
 import tacos.Ingredient.Type;
-
-
-import java.util.HashMap;
-import java.util.Map;
 
 @Component
 public class IngredientByIdConverter implements Converter<String, Ingredient> {
@@ -43,16 +39,6 @@ public class IngredientByIdConverter implements Converter<String, Ingredient> {
     @Override
     public Ingredient convert(String id) {
         return ingredientMap.get(id);
-    }
-
-    @Override
-    public JavaType getInputType(TypeFactory typeFactory) {
-        return null;
-    }
-
-    @Override
-    public JavaType getOutputType(TypeFactory typeFactory) {
-        return null;
     }
 
 }
